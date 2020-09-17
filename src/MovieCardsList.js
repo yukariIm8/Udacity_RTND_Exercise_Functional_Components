@@ -3,7 +3,7 @@ import MovieCard from './MovieCard';
 
 const MovieCardsList = props => {
 
-	const { profiles, users, movies } = props;
+    const { profiles, users, movies } = props;
 
     const usersByMovie = {};
 
