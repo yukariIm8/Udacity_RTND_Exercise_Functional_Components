@@ -2,7 +2,7 @@ import React from 'react';
 
 const MovieCard = props => {
 
-	const { users, usersWhoLikedMovie, movieInfo } = props;
+    const { users, usersWhoLikedMovie, movieInfo } = props;
 
     return (
       <li key={movieInfo.id}>
